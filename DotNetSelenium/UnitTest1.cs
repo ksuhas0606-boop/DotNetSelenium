@@ -17,6 +17,7 @@ namespace DotNetSelenium
         public void ValidateSignUpUserText()
         {
             IWebDriver driver = new ChromeDriver();
+            int a;
             try
             {
                 // Navigate to login page

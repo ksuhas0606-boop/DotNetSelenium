@@ -9,11 +9,11 @@ namespace DotNetSelenium.Pages
 {
     internal class LoginPage
     {
-        public static void signUpName(IWebDriver driver,By locator, String uname)
+        public static void SignUpName(IWebDriver driver,By locator, String uname)
         {
             driver.FindElement(locator).SendKeys(uname);
         }
-        public static void signUpEmail(IWebDriver driver, By locator, String pass)
+        public static void SignUpEmail(IWebDriver driver, By locator, String pass)
         {
             driver.FindElement(locator).SendKeys(pass);
         }

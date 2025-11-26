@@ -64,9 +64,9 @@ namespace DotNetSelenium
 
                 System.Threading.Thread.Sleep(2000);
 
-                LoginPage.signUpName(driver,By.XPath("//input[@placeholder='Name']"), "Suhask";
+                LoginPage.SignUpName(driver,By.XPath("//input[@placeholder='Name']"), "Suhask");
 
-                LoginPage.signUpEmail(driver, By.XPath("//input[@placeholder='Name']"), "SuhasK");
+                LoginPage.SignUpEmail(driver, By.XPath("//input[@placeholder='Name']"), "SuhasK");
                
 
                 /*IWebElement entername = driver.FindElement(By.XPath("//input[@placeholder='Name']"));
